@@ -1,0 +1,13 @@
+service: todo-web
+
+provider:
+  name: aws
+  runtime: nodejs6.10
+
+functions:
+  web:
+    handler: handler.web
+    events:
+      - http:
+          path: /
+          method: get
