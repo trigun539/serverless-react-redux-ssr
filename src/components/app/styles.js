@@ -6,12 +6,16 @@ const wrapper = css({
 	left: 0,
 	right: 0,
 	bottom: 0,
-	backgroundColor: '#f5f5f5'
+	backgroundColor: '#191919'
 });
 
 const title = css({
-	margin: '10',
-	color: 'red'
+	position: 'absolute',
+	top: '50%',
+	left: '50%',
+	transform: 'translate(-50%, -50%)',
+	color: '#ffd426',
+	fontFamily: 'Monaco, Inconsolata, monospace'
 });
 
 const styles = {

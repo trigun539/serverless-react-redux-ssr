@@ -1,5 +1,5 @@
 {
-  "name": "todo-web",
+  "name": "serverless-react-redux-ssr",
   "version": "1.0.0",
   "description": "",
   "main": "handler.js",
@@ -24,7 +24,6 @@
     "base64-image-loader": "^1.2.0",
     "express": "^4.15.3",
     "glamor": "^2.20.25",
-    "glamorous": "^3.22.1",
     "webpack-node-externals": "^1.6.0"
   }
 }

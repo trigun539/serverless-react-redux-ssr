@@ -7,5 +7,6 @@ Sample single page app getting deployed to AWS Lambda using serverless.
 - Clone repo
 - `npm install`
 - `npm run dev // for local development`
+ - `nodemon server.js // to start local server`
 - `npm run build // for deployment`
 - `serverless deploy -f web -v // for deployment to lambda`
